@@ -11,9 +11,10 @@ const App = () => {
         <main>
           <Dictionary defaultKeyword="love" />
         </main>
-        <footer className="App-footer">
-          <small>Coded by Stella Maris</small>
-        </footer>
+        <footer> 
+          <small>Coded by Stella Maris and is <a href="https://github.com/chimaris/dictionary-app" target="_blank" rel="noopener noreferrer">open-sourced on GitHub</a> and <a href="https://mi-dictionary.netlify.app/" target="_blank" rel="noopener noreferrer">hosted on Netlify</a>
+   </small>
+   </footer>
       </div>
     </div>
   );
